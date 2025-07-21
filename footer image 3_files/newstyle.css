@@ -1,0 +1,429 @@
+ /* news update */
+
+ .new-cls1.nal_ro{display: flex;
+
+justify-content: center;flex-wrap: wrap;}
+
+.nal_col{background-color: #008B8B!important;
+
+border-radius: 6px;width: calc(33.33333333% - 30px);
+
+margin: 0 15px;}
+
+.nal_col_two{background-color: #182037!important;
+
+border-radius: 6px;width: calc(33.33333333% - 30px);
+
+margin: 0 15px;}
+
+.nal_col_three{background-color: #556B2F!important;
+
+border-radius: 6px;width: calc(33.33333333% - 30px);
+
+margin: 0 15px;}
+
+.nal_col .ared-bg, .nal_col_two .ablue-bg, .nal_col_three .alred-bg{height: auto;} 
+
+/* .responsive )*/   
+
+@media screen and (max-width: 1023px){
+
+ .new-cls1.nal_ro{display: block;margin-bottom: 0;}
+
+ .nal_col, .nal_col_two, .nal_col_three{background-color: transparent!important;
+
+border-radius: 0;width: 100%;
+
+margin: 0;}            
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*05-06-2025   ===   Ayan*/
+
+.page-template-school-listing .bot-bar::after{
+	margin: 0px !important;
+}
+.page-template-school-listing .school-c a{
+	background-color: #ac1b2a !important;
+    color: #fff !important;
+    border-radius: 10px !important;
+    width: 100% !important;
+    text-align: center;
+    line-height: normal;
+    height: 65px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.page-template-school-listing .row.school-c{
+	/*display: flex !important;
+    gap: 20px !important;
+    flex-wrap: wrap !important;
+    align-items: center !important;
+    justify-content: space-between !important;*/
+}
+
+.faculty-card .bot-bar::after{
+	margin: 0px !important;
+}
+
+.faculty-card .top {
+    background-color: #ac1b2a;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    border-radius: 8px 8px 0px 0px;
+}
+.faculty-card .bottom {
+    padding: 15px;
+    min-height: 170px;
+
+}
+.faculty-card .top img{
+	height: 90px;
+	margin-left: 30px;
+	border: 2px solid #fff;
+    border-radius: 50px;
+    object-fit: cover;
+    width: 90px;
+}
+.faculty-card .bottom .name{
+	font-weight: 700;
+    line-height: normal;
+    padding-top: 20px;
+    color: #002d47;
+}
+.faculty-card{
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 8px;
+}
+.faculty-card .bottom .designation{
+	font-size: 13px;
+    color: #c92334;
+    text-transform: uppercase;
+    font-weight: 600;
+    line-height: 1.4;
+    padding: 6px 0px;
+}
+.faculty-card .bottom .experience{
+	font-size: 13px;
+	font-weight: 700;
+	color: #034870;
+    line-height: 1.4;
+}
+.faculty-card .bottom .experience span{
+	color: #999898;
+    font-weight: 400;
+}
+.card-row .card-col{
+	margin-bottom: 45px;
+}
+.view-all{
+	text-align: center;
+}
+.view-all button{
+	border: none !important;
+    font-size: 15px !important;
+    border-radius: 3px !important;
+    font-weight: 600 !important;
+    background-color: #ac1b2a !important;
+    color: #fff !important;
+    padding: 0px 15px !important;
+}
+.bot-bar{
+	margin-bottom: 45px !important;
+    padding-left: 15px;
+}
+
+
+
+.single-faculty-info .bot-bar::after{
+	margin: 0px !important;
+}
+.single-faculty-info .faculty-d-card img{
+	height: 200px;
+	border-radius: 15px;
+    border: 2px solid #d1d1d1;
+}
+.single-faculty-info .faculty-d-card{
+	display: flex;
+    gap: 10px;
+    margin-bottom: 35px;
+}
+.single-faculty-info .faculty-d-card .faculty-d-right h4{
+    background-color: #ac1b2a;
+    color: #fff;
+    margin: 0px;
+    border-radius: 12px 12px 0px 0px;
+    padding: 20px;
+}
+.single-faculty-info .faculty-d-card .faculty-d-right .faculty-right-d{
+	padding: 10px 20px;
+    border: 2px solid #d1d1d1;
+    border-radius: 0px 0px 15px 15px;
+    border-top: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+.single-faculty-info .faculty-d-card .faculty-d-right .faculty-right-d p{
+	line-height: normal;
+    font-size: 14px;
+    text-align: left !important;
+    line-height: 16px;
+}
+.single-faculty-info .faculty-d-card .faculty-d-right .faculty-right-d p strong{
+	color: #ac1b2a;
+	font-size: 15px;
+    line-height: 26px !important;
+}
+
+.single-faculty-info .faculty-d-card .faculty-d-right .faculty-right-d p:nth-child(1){
+    width: 40%;
+}
+.single-faculty-info .faculty-d-card .faculty-d-right .faculty-right-d p:nth-child(2){
+    width: 60%;
+}
+.single-faculty-info .faculty-d-card .faculty-d-right .faculty-right-d p:nth-child(3){
+    width: 40%;
+}
+.single-faculty-info .faculty-d-card .faculty-d-right .faculty-right-d p:nth-child(4){
+    width: 60%;
+}
+
+
+/*06-06-2025   ===   Ayan*/
+
+
+.single-faculty-info .faculty-name {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.single-faculty-info .faculty-name h4{
+    font-size: 20px;
+    color: #ac1b2a;
+}
+.single-faculty-info .faculty-name .hr{
+    height: 1.5px;
+    background-color: #ac1b2a;
+    width: 150px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.single-faculty-info .faculty-name .dot{
+    height: 5px;
+    width: 5px;
+    background-color: #ac1b2a;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+.single-faculty-info .faculty-d-card .faculty-d-right .faculty-right-d p svg{
+    width: 12px;
+    margin-right: 3px;
+    margin-bottom: -1px;
+}
+.single-faculty-info .faculty-list li{
+    font-size: 16px !important;
+    line-height: normal !important;
+    display: flex;
+    align-items: start;
+    margin-bottom: 10px;
+}
+.single-faculty-info .faculty-list li img{
+    width: 15px;
+    margin-top: 4px;
+    margin-right: 8px;
+}
+.single-faculty-info .faculty-name-title h4{
+    font-size: 21px !important;
+}
+.single-faculty-info .faculty-name-title{
+    margin-bottom: 10px !important;
+}
+.single-faculty-info .faculty-d-card .faculty-d-right .faculty-right-d p span{
+    font-size: 13px !important;
+}
+.single-faculty-info .bot-bar{
+    padding-left: 15px;
+}
+
+.single-faculty-info .faculty-name span{
+    display: flex;
+    align-items: center;
+}
+.single-faculty-info .faculty-d-para{
+    font-size: 16px !important;
+    line-height: normal !important;
+}
+
+.page-template-school-listing .bot-bar{
+    padding-left: 15px;
+}
+.page-template-school-listing .bot-bar{
+        margin-top: 0px !important;
+}
+
+#user-head-sec li a {
+    font-size: 14px !important;
+}
+
+
+/*10-06-2025   ===   Ayan*/
+
+.navbar .current-menu-item a{
+    border-bottom: 2px solid #fff !important;
+}
+.navbar .current_page_parent a{
+    border-bottom: 2px solid #fff !important;
+}
+.navbar .current-menu-ancestor  a{
+    border-bottom: 2px solid #fff !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Responsive*/
+/*05-06-2025   ===   Ayan*/
+
+@media screen and (max-width: 1199px) {
+    .single-faculty-info .faculty-d-card .faculty-d-right .faculty-right-d p strong {
+        display: block;
+        padding-left: 20px;
+        margin-top: -20px;
+        line-height: 20px !important;
+    }
+    .single-faculty-info .faculty-d-card .faculty-d-right .faculty-right-d p span{
+        font-size: 13px !important;
+        padding-left: 20px;
+        display: block;
+        margin-top: -10px;
+    }
+    .single-faculty-info .faculty-d-card .faculty-d-right .faculty-right-d{
+        gap:10px !important;
+    }
+    .single-faculty-info .faculty-d-card .faculty-d-right .faculty-right-d p:nth-child(1){
+    width: 35%;
+    }
+    .single-faculty-info .faculty-d-card .faculty-d-right .faculty-right-d p:nth-child(2){
+        width: 60%;
+    }
+    .single-faculty-info .faculty-d-card .faculty-d-right .faculty-right-d p:nth-child(3){
+        width: 35%;
+    }
+    .single-faculty-info .faculty-d-card .faculty-d-right .faculty-right-d p:nth-child(4){
+        width: 60%;
+    }
+    .single-faculty-info .faculty-name .small-hr{
+        width: 30px !important;
+    }
+
+}
+
+@media screen and (max-width: 991px) { 
+	.page-template-school-listing .school-c a{
+		margin-top: 0px !important;
+		width: 100% !important;
+	}
+	.page-template-school-listing .row.school-c{
+		flex-direction: column !important;
+	}
+	.page-template-school-listing .row.school-c:nth-child(2){
+		margin-top: -20px !important;
+	}
+
+    .single-faculty-info .faculty-d-card{
+        align-items: center;
+    }
+
+    .bot-bar{
+        padding-top: 30px !important;
+    }
+
+
+    .page-template-school-listing .school-c a{
+        margin-top: 20px !important;
+    }
+    .page-template-school-listing .bot-bar{
+        padding-bottom: 20px;
+    }
+
+ }
+
+
+ @media screen and (max-width: 767px){
+    .single-faculty-info .faculty-d-card{
+        flex-direction: column !important;
+        align-items: start !important;
+    }
+    .single-faculty-info .faculty-name-title{
+        flex-direction: column !important;
+        align-items: start !important;
+    }
+    .single-faculty-info .faculty-name .small-hr {
+        width: 150px !important;
+    }
+    .single-faculty-info .faculty-name{
+        flex-direction: column !important;
+        align-items: start !important;
+    }
+    .single-faculty-info .faculty-name h4{
+        margin-bottom: 0px !important;
+    }
+    .single-faculty-info .faculty-name .hr{
+        margin-left: 0px !important;
+    }
+ }
+
+ @media screen and (max-width: 575px){
+    .single-faculty-info .faculty-d-card .faculty-d-right .faculty-right-d{
+        flex-direction: column !important;
+    }
+    .single-faculty-info .faculty-d-card .faculty-d-right .faculty-right-d p:nth-child(1){
+        width: 100%;
+    }
+    .single-faculty-info .faculty-d-card .faculty-d-right .faculty-right-d p:nth-child(2){
+        width: 100%;
+    }
+    .single-faculty-info .faculty-d-card .faculty-d-right .faculty-right-d p:nth-child(3){
+        width: 100%;
+    }
+    .single-faculty-info .faculty-d-card .faculty-d-right .faculty-right-d p:nth-child(4){
+        width: 100%;
+    }
+    .page-template-school-listing .school-col{
+        width: 100% !important;
+    }
+    
+ }

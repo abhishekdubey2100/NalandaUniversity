@@ -1,0 +1,102 @@
+.alignnone {
+    margin: 5px 20px 20px 0
+}
+
+.aligncenter,
+div.aligncenter {
+    display: block;
+    margin: 5px auto
+}
+
+.alignright {
+    float: right;
+    margin: 5px 0 20px 20px
+}
+
+.alignleft {
+    float: left;
+    margin: 5px 20px 20px 0
+}
+
+.aligncenter {
+    display: block;
+    margin: 10px auto
+}
+
+a img.alignright {
+    float: right;
+    margin: 5px 0 20px 20px
+}
+
+a img.alignleft,
+a img.alignnone {
+    margin: 5px 20px 20px 0
+}
+
+a img.alignleft {
+    float: left
+}
+
+a img.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.wp-caption {
+    background: #fff;
+    max-width: 96%;
+    padding: 5px 3px 10px;
+    text-align: center
+}
+
+.wp-caption.alignleft,
+.wp-caption.alignnone {
+    margin: 5px 20px 20px 0
+}
+
+.wp-caption.alignright {
+    margin: 5px 0 20px 20px
+}
+
+.wp-caption img {
+    border: 0 #eee;
+    height: auto;
+    margin: 0;
+    max-width: 98.5%;
+    padding: 0;
+    width: auto
+}
+
+.wp-caption p.wp-caption-text {
+     font-size: 16px;
+    line-height: 38px;
+    margin: 0;
+}
+
+#content .gallery .gallery-icon img,
+img[class*=align],
+img[class*=wp-image-] {
+    padding: 0 6px;
+    max-width: 100%
+}
+
+#content .gallery .gallery-icon a:active img,
+#content .gallery .gallery-icon a:focus img,
+#content .gallery .gallery-icon a:hover img,
+a:active img[class*=align],
+a:active img[class*=wp-image-],
+a:focus img[class*=align],
+a:focus img[class*=wp-image-],
+a:hover img[class*=align],
+a:hover img[class*=wp-image-] {
+    background: #eee;
+    border-color: #bbb
+}
+
+.wp-caption a:active img,
+.wp-caption a:focus img,
+.wp-caption a:hover img {
+    background: #fff;
+    border-color: #ddd
+}

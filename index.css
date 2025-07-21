@@ -1,0 +1,178 @@
+*{
+margin: 0;
+padding: 0;
+}
+
+#header{
+    height: 80px;
+    border-top: 8px solid red;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    text-decoration: none;
+    color: aliceblue;
+    
+    
+   
+}
+.logo{
+    height: 60px;
+    width: 200px;
+
+}
+.link1{
+    text-decoration: none;
+    margin-left: 400px;
+    background-color: red;
+    color: aliceblue;
+    font-size: 20px;
+    border-radius: 3px;
+    
+}
+.link:hover{
+    background-color: blue;
+    color: red;
+    transition: all;
+    transition-timing-function: ease-in;
+    transition-duration: 1s;
+}
+
+    
+
+.msg{
+    height: 25px;
+    width: 25px;
+    background-color: white;
+    border-left: 2px solid red;
+    border-right: 2px solid red;
+}
+.fo{
+    background-color: red;
+    color: aliceblue;
+    font-size: 20px;
+    border-radius: 3px;
+
+
+}
+input{
+    font-size: 20px;
+    border: 2px solid red;
+    border-radius: 3px;
+}
+#navbar{
+    height: 80px;
+    background-color: red;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    
+   
+    font-size: 20px;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.logo2{
+    height: 500px;
+    width:600px
+    
+    
+}
+.login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 20px;
+   background-color: pink;
+   height: 100px;
+   border: 2px solid red;
+  
+}
+.reg{
+   
+    background-color: red;
+}
+button{
+    background-color: red;
+    color: aliceblue;
+    font-size: 20px;
+    border-radius: 5px;
+}
+h1{
+    text-align: center;
+    margin-top: 100px;
+}
+.about{
+    height: 800px;
+    width: 900px;
+   
+    margin-left: 300px;
+    margin-top: 50px;
+   
+}
+   
+   
+
+.content{
+   font-size: 20px;
+}
+.prof{
+    margin-top: 20px;
+    border: 2px solid black;
+    height: 150px;
+    width: 900px;
+    font-size: 20px;
+}
+#foot{
+    height: 400px;
+    background-color: red;
+    margin-top: 20px;
+    
+}
+
+#foot{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    color: aliceblue;
+    font-size: 25px;
+  
+}
+.quick{
+    height: 40px;
+    width: 350px;
+    margin-top: 30px;
+    font-weight: bold;
+    border-bottom: 3px solid wheat;
+    text-align: center;
+
+}
+.link3{
+
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    
+
+}
+.link4{
+
+    margin-top: 30px;
+    font-size: 20px;
+    
+}
+.copyright{
+    height: 60px;
+    background-color: brown;
+    color: aliceblue;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

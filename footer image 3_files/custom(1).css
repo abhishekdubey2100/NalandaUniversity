@@ -1,0 +1,261 @@
+/*start 17-11*/
+.innerpage-content li.new-fontz a{font-size:14px!important;}            
+footer .social-icon {
+    float: none;
+}
+.instagramsi {
+    background-position: -35px -2px;
+    height: 28px !important;
+}
+.social-icon a {
+    
+    background-image: url(https://nalandauniv.edu.in/wp-content/themes/nalandauniversity/images/social1.png)}
+.social-icon.socclass .fb {
+    background-position: -3px -3px;
+}
+.social-icon.socclass .linkedin {
+    background-position: -69px -3px;
+}
+.instagramsi {
+    background-position: -35px -2px;
+    height: 28px !important;
+}
+.footer-bottom.footer-bottom {padding: 7px 0;}
+.footer-bottom {padding: 7px 0 5px !important;}
+/*end 17-11*/
+/*.instagramsi {background-image: none;}*/
+#mainnav > ul > li{padding: 32px 7px 0 7px !important;}
+#mainnav > ul > li > a {letter-spacing: -0.7px;}
+#menu-item-714 .sub-menu {
+    left: auto;
+    right: 0;
+}
+.menu-item-has-children a::after {
+    content: "\f107";
+    font: normal normal normal 14px/1 FontAwesome;
+    margin-left: 5px;
+}
+.menu-item-has-children .sub-menu a::after,
+.school-sub-menu .sub-menu li a::after { content: none;}
+.school-sub-menu.menu-item-has-children a::after {
+    content: "\f107";
+    margin-left: 8px;
+}
+#mainnav > ul > li:first-child {padding-left: 0 !important;}
+.admission-wrapper a {
+width: auto;}
+.postid-6943 .faculty-title{
+float:none !important;
+}
+.event-thumbnail.vc-video-contnt{position: relative;}
+.vc-video-speech{position: absolute;
+z-index: 99;
+background: rgba(0, 0, 0, 0.4);
+width: 97%;
+margin-left: 3;
+margin: 0 auto!important;
+top: 0;
+left: 6px;
+padding: 12px 10px;}
+.postid-6346 ul.cont-list li a:hover, .nu-ol li a:hover {
+    color: rgba(172, 26, 47, 1);
+    cursor: pointer;
+    text-decoration: inherit;
+    width: 100%;
+}
+.postid-6346 ul.cont-list li{
+    color: #383737;
+   font-size: 14px !important;
+line-height: 20px !important;
+    font-weight: 300;
+    text-align: justify;
+    margin: 0 0 10px;
+}
+.postid-6346 ul.cont-list, .nu-ol{
+    color: #6b6961;
+    float: left;
+    font-size: 90%;
+    line-height: 20px;
+    list-style-type: decimal!important;
+    /*list-style-type: none !important;*/
+    min-height: 48px;
+    padding: 0 3%;
+    position: relative;
+    width: 100%;
+}
+.postid-7043 p.faculty-designation{width:80%;}
+.postid-7054  p.faculty-designation{width:80%;}
+/*.postid-7081,.postid-7087, .postid-7140 p {
+  font-size: 14px!important;
+    line-height: 20px!important;
+}*/
+.postid-5711 .fonsz{
+font-size:16px !important;
+text-align: left;
+float: left;
+}
+
+.fonsz li:before {
+    background: rgb(172, 26, 47);
+    content: "";
+    height: 6px;
+    left: 1px;
+    position: absolute;
+    width: 6px;
+    margin-top: 8px;
+}
+.scrollup.ftsec{text-align:center;}
+.sosp{margin-top:2px;}
+.socclass{float:right;}
+.social-icon.socclass a:hover{opacity:0.8;}
+.social-icon.socclass a {
+    padding: 0 14px;
+    color: #a91a2c;
+margin: 0 2px;}
+/* .socclass, .social-icon.socclass a{float:none;display:inline-block;} */
+.social-icon.socclass{line-height:0;padding: 5px 0;}
+.date-picker:nth-child(7) {
+  color: red!important;
+}
+.date-picker:nth-child(1) {
+  color: #000!important;
+}
+.postid-7761 .bot-bar{text-align:center !important}
+@media screen and (max-width: 1347px){
+    #mainnav > ul > li {padding: 28px 8px 0 8px !important;}
+#mainnav > ul > li > a {letter-spacing: -0.8px;}
+}
+@media (max-width: 1249px) {
+    #mainnav > ul > li {
+padding: 28px 7px 0 7px !important;}
+}
+@media screen and (max-width: 1300px) and (min-width: 1200px){
+#mainnav > ul > li > a {
+    letter-spacing: -0.9px;
+}
+#mainnav > ul > li {
+padding: 25px 6px 0 6px !important;}
+.navbar-brand img{height:50px;}
+}
+@media screen and (max-width: 1199px){
+.school-sub-menu.menu-item-has-children a::after, .menu-item-has-children a::after {content: none;}
+}
+@media screen and (max-width: 1023px){
+.uni-topnews .col-md-2 {
+    width: 17%;
+}
+.uni-topnews .col-md-10 {
+width: 82%;}
+}
+@media screen and (max-width: 1023px){
+.admission-bcw, .admission-tcw {
+        min-height: auto !important;
+   max-height: 100%!important;
+margin-bottom:15px !important;
+    }
+.new-cls1 .col-sm-4 {width: 100%;}
+}
+@media screen and (max-width: 768px){
+.uni-topnews .col-md-10 {
+    width: 79%;
+}
+}
+@media only screen and (max-width: 767px) {
+    .social-icon {
+    float: none;
+}
+.social-icon.socclass{text-align:center; line-height:20px;margin-bottom: 4px;float: none;}
+.social-icon.socclass a{display:inline-block; padding:10px;float: none;}
+}
+@media screen and (max-width: 575px){
+.uni-topnews .col-md-10 {
+    width: 75%;
+}
+}
+@media screen and (max-width: 414px){
+.uni-topnews .col-md-10 {
+    width: 70%;
+}
+}
+@media screen and (max-width: 345px){
+.uni-topnews .col-md-2 {
+    width: 34%;
+}
+.uni-topnews .col-md-10 {
+    width: 66%;
+}
+}
+.admission-wrapper a {
+    width: auto !important;
+}
+#mainnav > ul > li > a {
+	font-size: 12px !important;
+}
+/* additional css */
+.admission-bcw, .admission-tcw {
+    min-height: 750px;
+}
+.admission-wrapper a {
+    width: auto !important;
+}
+#mainnav > ul > li > a {
+	font-size: 12px !important;
+}
+.social-icon.socclass {
+	margin-bottom: 0;
+	margin-top: 5px;
+    line-height: 34px !important;
+}
+
+.academic-newfold {
+    margin: 0 auto;
+    margin-left: 16.65% !important;
+    float: left;
+    clear: both;
+}
+ .innerpage-content h2.pm-add{margin-bottom: 10px!important;}  
+    .pm-ttl{margin-bottom: 60px;}    
+   .pm-sec{margin-bottom: 60px;}
+   .pm-sec img{border: 4px solid #a91a2c;margin: 0 auto 20px;}     
+   .dis-wrap .faculty-title{float: none;  
+    margin-bottom: 0;} 
+   .dis-wrap .faculty-d{float: none!important;
+    margin-top: 10px;
+    margin-bottom: 15px;} 
+   .dis-main{padding: 1% 0;margin:0 0 20px;border-bottom: 1px inset #F3F3F3;}     
+/*responsive*/
+@media screen and (min-width: 1200px){
+#mainnav .sub-menu li.menu-item-has-children ul.sub-menu{      
+	float: right;
+margin-left: -200px;
+margin-top: -35px;
+display: block;
+left: 0 !important;
+right: auto !important;
+}
+}
+@media screen and (max-width: 1199px){
+	button#responsive-menu-button {
+    top: 31px!important;}
+	.menu-item-has-children a::after{display:none!important;}
+}
+@media screen and (max-width: 991px){
+    .dis-wrap .faculty-title, .dis-wrap .faculty-d, .dis-wrap{text-align: center; width: 100%!important;}       
+    .dis-wrap img.img-responsive.faculty-resiz{margin: 0 auto!important;}             
+}
+@media screen and (max-width: 767px) and (min-width: 320px){
+.academic-newfold {
+    margin-left: 0 !important;
+    float: none;
+    padding-bottom: 40px;
+}
+}
+@media screen and (max-width: 575px) and (min-width: 320px){
+	button#responsive-menu-button {
+    top: 17px!important;}                           
+}
+@media screen and (max-width: 1024px){
+	.admission-bcw, .admission-tcw {
+	    min-height: 850px;
+	}
+}
